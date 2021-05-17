@@ -1,0 +1,55 @@
+body {
+  background-color: #fbf7f7;
+  color: #dc552c;
+  font-family: sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 350px;
+  margin: 20px auto;
+  border-radius: 20px;
+  height: 450px;
+  padding: 20px;
+  box-shadow: inset -6px -6px 6px #fff;
+}
+
+.header {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: black;
+}
+.card {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 15px;
+  text-align: center;
+  margin: 12px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px #cbced1, -1px -1px 5px #fff;
+}
+
+.badges {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  color: #dc552c;
+  padding-right: 10px;
+  text-align: right;
+  height: 30px;
+  width: 90%;
+  border-radius: 20px;
+  margin: 5px;
+  border: none;
+  background: #fbf7f7;
+  box-shadow: inset 2px 2px 2px #cbced1, inset -2px -2px 2px #fff;
+}
+
+.fas {
+  color: #dc552c;
+}
